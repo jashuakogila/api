@@ -7,6 +7,15 @@ public class Student {
 	private int marks;
 	
 	
+	public Student() {
+		super();
+	}
+	public Student(String name, String age, int marks) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.marks = marks;
+	}
 	public String getName() {
 		return name;
 	}
